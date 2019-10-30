@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>爱奇艺-今日焦点</title>
+<style>
+	
+	 body {
+      display: block;
+      margin: 6px 0px 0px 0px;
+   }
+   a:link {color: black; text-decoration:none;}  
+   a:visited {color: black;}
+   a:active {color:#00be06; }   
+   a:hover {color:#00be06;}
+	 .first-line{
+	 	  margin:15px 6.5% 15px 6.5%;
+	 	  padding: 0px 4px;
+      display: flex;
+      justify-content: space-between;
+	    align-items: flex-end;
+	 }
+	 .left{
+	 	  display: flex;
+	 	  justify-content: space-between;
+      align-items: center;
+	 }
+	 .page-turn{
+	 	display: flex;
+	    align-items: baseline;
+	 }
+	 .page-num{
+	 	margin: 0px 10px;
+	 	font-size: 12px;
+	 	color: #ccc;
+	 }
+   .left-text{
+      display: flex;
+      align-items: baseline;
+   }
+   .Today{
+     	font-size: 24px;
+   }
+   .txt-link{
+      font-size: 14px;
+      padding: 0px 10px 0px 0px;
+      color: #222;
+      text-decoration:none;
+   }
+   .slash{
+      font-size: 14px;
+      padding: 0px 10px 0px 0px;
+      color: #00be06;
+      font-style: normal;
+   }
+   .second-line{
+     	margin:0px 6.5%;
+     	padding: 0px 4px;
+      display: flex;
+      justify-content: space-around;
+	    align-items: flex-start;
+   }
+	 .container{
+      margin: 0px 5px 0px 0px;
+      width: 180px;
+	 }
+	 img{
+	 	  display: block;
+      width: 100%;
+      height: 100%;
+	 }
+	 .background{
+	 	  background: #f8f8f8;
+      padding: 6px 10px;
+      margin: 0 0 5px 0;
+   }
+  p{
+      font-size: 14px;
+      vertical-align: middle;
+      position: relative;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp:2;
+      overflow: hidden;
+      word-wrap: break-word;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      color: #222;
+	 }
+   .qy-mod-icon {
+      display: inline-block;
+   }
+   .qy-mod-icon.focuplay {
+      background-position: 0 0;
+   }
+   .qy-mod-icon {
+      width: 28px;
+      height: 28px;
+      background: url(img/sprite-channelTitle-icons@2x-0422.png) no-repeat 50%;
+      background-size: 400px 120px;
+      padding: 0px 10px 0px 0px;
+     }
+   .qy-common-icon.qy-common-pageleft8.disabled {
+    background-position: -230px 0;
+    cursor: default;
+     }
+   .qy-page-turn .qy-common-pageleft8, .qy-page-turn .qy-common-pageright8 {
+    vertical-align: baseline;
+    cursor: pointer;
+     }
+   .qy-common-icon.qy-common-pageleft8 {
+    width: 8px;
+    height: 8px;
+    background-position: -110px 0;
+     }
+   .qy-common-icon.qy-common-pageright8 {
+    width: 8px;
+    height: 8px;
+    background-position: -120px 0;
+     }
+   .qy-common-icon {
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 0;
+    background-image: url(img/sprite-common-icons-190829.png);
+    background-repeat: no-repeat;
+     }
+@media screen and (max-width: 730px) {
+	p{
+      font-size: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+   .Today{
+     	font-size: 16px;
+   }
+   .txt-link{
+      font-size: 6px;
+      padding: 0px 5px 0px 0px;
+  }
+  .slash{
+  	font-size: 6px;
+  	padding: 0px 5px 0px 0px;
+  }
+}
+@media screen and (max-width: 366px) {
+         .txt-link{
+      padding: 0px 2.5px 0px 0px;
+  }
+  .slash{
+  	padding: 0px 2.5px 0px 0px;
+  }
+}
+@media screen and (max-width: 360px) {
+      .second-line{
+      display:block;
+     }
+      .container {
+        width: 48%;
+        float: left;
+    }
+  }
+@media screen and (max-width: 295px) {
+      .second-line{
+      flex-wrap: wrap;
+     }
+     .container {
+        width: 100%;
+    }
+  }
+	
+	</style>	
+</head>
+
+<body>
+	<div class="first-line">
+      <div class="left"> 
+	  	  <div class="qy-mod-icon focuplay"></div>
+		    <div class="left-text">
+          <div class="Today">今日焦点</div>
+		      <div style="padding: 0px 0px 0px 20px;">
+		        <a href="https://www.iqiyi.com/v_19rvgtuwzg.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_tag1" class="txt-link">三大运营商将发布5G套餐</a> 
+            <i class="slash">/</i>
+            <a href="https://www.iqiyi.com/feed/?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_tag2" class="txt-link">更多热点&gt;</a>
+          </div>
+		    </div>
+      </div> 
+      <div class="page-turn">
+			    <i class="qy-common-icon qy-common-pageleft8 disabled"></i>
+			    <span class="page-num"><span class="selected" style="color: #00be06;">1</span>/4</span>
+			   <i class="qy-common-icon qy-common-pageright8"></i>
+	    </div>
+	</div>
+	<div class="second-line">
+      <div class="container">
+		 <img src="img/untitled 1.jpg">
+		  </a> <div class="background"><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><p><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"> 世界首例！北大教授找到治疗艾滋病和白血病新方法</a></p></div>
+         
+      </div>
+       <div class="container">
+		   <img src="img/untitled 2.jpg">
+		</a><div class="background"><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><p><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><a href="https://www.iqiyi.com/v_19rvewmr10.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title8">英货车藏尸体案 遗体身份调查重点转向越南</a></p></div>
+         
+       </div>
+       <div class="container">
+		 <img src="img/untitled 3.jpg">
+	     </a><div class="img/untitled 3.jpg"><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><p><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><a href="https://www.iqiyi.com/v_19rvf0oklo.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title2">吒儿威武！《哪吒》代表中国内地角逐奥斯卡</a></p></div>
+         
+       </div>
+       <div class="container">
+		   <img src="img/untitled 4.jpg">
+		   </a><div class="background"><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><p><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><a href="https://www.iqiyi.com/v_19rsjow1ec.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title19">一路向北！国产客机ARJ21开通首条国际航线</a></p></div>
+         
+       </div>
+       <div class="container">
+		   <img src="img/untitled 5.jpg">
+		   </a><div class="background"><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><p><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><a href="https://www.iqiyi.com/v_19rtvzpszw.html?list=19rra0u0se&amp;vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title17">爱奇艺爱电影：少年的你</a></p></div>
+         
+       </div>
+       <div class="container" style="margin: 0px;">
+		   <img src="img/untitled 6.jpg">
+		   </a><div class="background"><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><p><a href="https://www.iqiyi.com/v_19rvgcc12k.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9"></a><a href="https://www.iqiyi.com/kszt/ohmypuppy.html?vfrm=pcw_home&amp;vfrmblk=D&amp;vfrmrst=712211_focus_A_title9">我就是演员·李宇春成黑马 表演看哭全场</a></p></div>
+         
+      </div>
+       
+    </div>
+</body>
+</html>
